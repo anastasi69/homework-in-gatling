@@ -1,0 +1,18 @@
+{
+  "simulation": "garlinghomework.Test",
+  "simulationId": "test",
+  "start": 1603559644481,
+  "description": "",
+  "scenarios": ["Test"],
+  "assertions": [
+{
+  "path": "Global",
+  "target": "percentage of successful events",
+  "condition": "is greater than",
+  "expectedValues": [80.0],
+  "result": true,
+  "message": "Global: percentage of successful events is greater than 80.0",
+  "actualValue": [94.11764705882352]
+}
+  ]
+}
